@@ -8,6 +8,6 @@ int main()
 		<< "4 * 5 = " << multiply(4, 5) << '\n'
 		<< "10 / 3 = " << divide(10, 3) << '\n'
 		<< "negation of 5 = " << negate(5) << '\n'
-		<< "10 ^ 5 = " << power(10, 5);
+		<< "100000 ^ 5 = " << power(10000, 2);
 	return 0;
 }

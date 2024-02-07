@@ -26,7 +26,7 @@ int substract(int x, int y)
 
 int multiply(int x, int y)
 {
-	int result = 0;
+	int result{};
 	while (y != 0)
 	{
 		if (y & 1)
@@ -39,7 +39,7 @@ int multiply(int x, int y)
 
 int divide(int x, int y)
 {
-	int result = 0;
+	int result{};
 	int shift = (sizeof(int) * 8) - 1;
 
 	while (shift >= 0)
@@ -55,9 +55,9 @@ int divide(int x, int y)
 	return result;
 }
 
-int power(int x, int y)
+long long power(long long x, long long y)
 {
-	int result = 1;
+	long long result{ 1 };
 	while (y > 0)
 	{
 		if (y & 1)
